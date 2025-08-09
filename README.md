@@ -49,7 +49,10 @@ Triggers & Events
 ### 📊 Dataset Columns
 company, location, industry, total_laid_off, percentage_laid_off, date, stage, country, funds_raised_millions
 
+[Check out my work](MySQL_Data_Cleaning_Project.sql)
 <img width="1055" height="616" alt="MySQL" src="https://github.com/user-attachments/assets/6e6fa63e-26cd-4d02-9891-b6090e61a642" />
+
+
 
 ### 🔍 Data Exploration Highlights
 After cleaning, I explored the dataset to identify trends and patterns, including:
@@ -67,5 +70,6 @@ Layoffs by country and funding stage
 ### ✅ Outcome
 The final dataset is clean, standardized, and ready for further visualization in Tableau or Power BI. Insights from this project can help understand the global impact of layoffs during 2020–2023.
 
+[Check out my work](MySQL_Exploratory_Data_Analysis_Project.sql)
 <img width="1055" height="600" alt="Explore" src="https://github.com/user-attachments/assets/174774fb-f2b0-400b-97c3-f8a58d3cc731" />
 
