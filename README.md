@@ -12,39 +12,39 @@ The main objective was to clean the dataset to ensure accuracy and consistency, 
 ### 🛠 Tools & Technologies
 MySQL (Data cleaning, transformation, and analysis)
 
-🧹 Data Cleaning Steps
-Removed Duplicates using window functions and ROW_NUMBER().
+### 🧹 Data Cleaning Steps
+- Removed Duplicates using window functions and ROW_NUMBER().
 
-Removed Extra Spaces using string functions (TRIM, LTRIM, RTRIM).
+- Removed Extra Spaces using string functions (TRIM, LTRIM, RTRIM).
 
-Standardized Data formats for industry, location, and country names.
+- Standardized Data formats for industry, location, and country names.
 
-Handled Missing or Blank Values by replacing or removing them.
+- Handled Missing or Blank Values by replacing or removing them.
 
-Dropped Unnecessary Columns for a cleaner dataset.
+- Dropped Unnecessary Columns for a cleaner dataset.
 
 ### 📈 Skills & SQL Features Used
-GROUP BY & ORDER BY
+- GROUP BY & ORDER BY
 
-HAVING & WHERE clauses
+- HAVING & WHERE clauses
 
-LIMIT & Aliasing
+- LIMIT & Aliasing
 
-CASE statements
+- CASE statements
 
-Joins (INNER, LEFT)
+- Joins (INNER, LEFT)
 
-String functions (TRIM, UPPER, LOWER, REPLACE)
+- String functions (TRIM, UPPER, LOWER, REPLACE)
 
-Subqueries & Unions
+- Subqueries & Unions
 
-Window functions (ROW_NUMBER, RANK)
+- Window functions (ROW_NUMBER, RANK)
 
-Stored Procedures
+- Stored Procedures
 
-Temporary Tables
+- Temporary Tables
 
-Triggers & Events
+- Triggers & Events
 
 ### 📊 Dataset Columns
 company, location, industry, total_laid_off, percentage_laid_off, date, stage, country, funds_raised_millions
@@ -57,15 +57,15 @@ company, location, industry, total_laid_off, percentage_laid_off, date, stage, c
 ### 🔍 Data Exploration Highlights
 After cleaning, I explored the dataset to identify trends and patterns, including:
 
-Top companies with the most layoffs
+- Top companies with the most layoffs
 
-Top industries affected by layoffs
+- Top industries affected by layoffs
 
-Percentage of workforce laid off by company
+- Percentage of workforce laid off by company
 
-Year with the highest number of layoffs
+- Year with the highest number of layoffs
 
-Layoffs by country and funding stage
+- Layoffs by country and funding stage
 
 ### ✅ Outcome
 The final dataset is clean, standardized, and ready for further visualization in Tableau or Power BI. Insights from this project can help understand the global impact of layoffs during 2020–2023.
